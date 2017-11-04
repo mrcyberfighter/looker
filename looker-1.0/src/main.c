@@ -723,8 +723,24 @@ static void compute_controls_size(GtkWidget *window, GtkWidget *controls) {
   gtk_window_resize(GTK_WINDOW(controls), width, 40);
 
   gtk_widget_set_size_request(timeline_scale , width-128-64-32 , -1) ;
-
-  gtk_window_move(GTK_WINDOW(controls), root_x, height+root_y) ;
+ 
+  
+  gint py = 0 ;
+ 
+  #if 0
+  
+  /**
+    * If the controls bar is to near from the bottom so that's disturb:
+    * Replace the 0 by a 1 above.
+    *
+    ********************************************************************/ 
+ 
+  gtk_window_get_size(GTK_WINDOW(controls), NULL, &py);
+  
+  #endif 
+ 
+ 
+  gtk_window_move(GTK_WINDOW(controls), root_x, height+root_y-py) ;
 
   is_controls_on = TRUE ;
 
