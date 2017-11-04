@@ -1,0 +1,29 @@
+============
+Installation
+============
+
+  $ ./configure       # Perform a system check.
+  Then
+  $ make              # Build the program(s).
+  $ make strip        # Remove unneeded symbols.
+  Finally
+  $ sudo make install # Install the program(s).
+
+Enjoy fast copying chunks using looker.
+
+=======
+Credits
+=======
+
+:author: Brüggemann Eddie <mrcyberfighter@gmail.com>
+
+:version: 1.0
+
+:release: 01/11/2017.
+
+---
+
+Thanks to my beloved mother, my family and to the doctors.
+
+Stay away from drugs: drugs destroy your brain and your life.
+

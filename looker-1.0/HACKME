@@ -1,0 +1,39 @@
+======
+HACKME
+======
+
+.. warning::
+
+  Into the right term of the word, criminals are not welcome anyway.
+
+  + They should be told that a computer is a tool not a f@cking machine.
+
+  And that they should stop their shit before it's too late in jail !
+
+  + We work for a better world and not for being annoyed by criminals.
+
+---
+
+The source are copied into the $(pkgdatadir)/src folder
+
+and a Makefile is provided for hacking the code of looker.
+
+simply type ``make help`` to see the available targets.
+
+---
+
+If you fear that someone change your program
+
+the hash is computed at build time
+
+and copy into $(pkgdatadir)/hashing too.
+
+Simply remove the source if you get anxious about this.
+
+Thanks for feedback if you change and/or enhance this tool.
+
+---
+
+:note: $(pkgdatadir) is equal to /usr(/local)/share/prgname.
+
+

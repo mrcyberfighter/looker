@@ -1,0 +1,48 @@
+Hi to user,
+
+I'm a native GNU/Linux geek (Don't forget the GNU) and this file contains
+
+inter alia:
+
++ The way to write to me a mail (the required headers and footers) :
+
+  if you detect a bug,
+
+  for enhancement ideas,
+
+  for feedback or any comment(s).
+
++ Read the TODO file: things you can do.
+
++ Read the HACKME file for hacking the code of looker or if you fear criminals. 
+
++ Read the README file.
+
+===================
+Mail subject format
+===================
+
+Per example:
+
+[subject:] BUG report about program name.
+
+or
+
+[subject:] QUESTION about program name.
+
+===========
+Mail footer
+===========
+
+Execute the following script:
+
+  $ chmod +x user_info.sh
+  $ ./user_info.sh # Generate a machine check.
+
+And set the generated file named "whoami.info" as attachment or mail footer.
+
+So that I can know better the target system, informations too often not given.
+
+---
+
+Thanks for feedback, bug-report(s) or any comment(s) !

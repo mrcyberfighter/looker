@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>looker 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head>
+  <body role="document">
+      <div class="header" role="banner"><img class="rightlogo" src="_static/looker-icon.png" alt="Logo"/><h1 class="heading"><a href="index.html#document-index">
+          <span>looker 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>looker 1.0 documentation</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        <a class="uplink" href="index.html#document-index">Contents</a>
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="welcome-to-looker-s-documentation">
+<h1>Welcome to looker&#8217;s documentation!<a class="headerlink" href="#welcome-to-looker-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<span id="document-looker"></span><div class="section" id="looker">
+<h2>looker<a class="headerlink" href="#looker" title="Permalink to this headline">¶</a></h2>
+<p><strong class="program">looker</strong> is a video player with all the basic functionalities of a video player:</p>
+<ul class="simple">
+<li>Play/Pause.</li>
+<li>Chapter forward.</li>
+<li>Chapter backward.</li>
+<li>Fullscreen/Unfullscreen.</li>
+<li>Time-line (with elapsed time and total duration).</li>
+<li>Volume control.</li>
+<li>Load a video file.</li>
+<li>Make a snapshot.</li>
+</ul>
+<p>&#8212;</p>
+<p>But looker can remember the position of your video file when you close the player,</p>
+<p>what permit you to reload the video, you watching at, at the position you stop it.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">note:</th><td class="field-body">In fact <strong class="program">looker</strong> reload the video 1 minute before you the stop.</td>
+</tr>
+</tbody>
+</table>
+<p>If you want, <strong class="program">looker</strong> ask you at exit if he should store the position.</p>
+<p>But you can disable this functionality into the preferences window.</p>
+<p>The preferences window permit you to set looker as default player for the supported video formats:</p>
+<ul class="simple">
+<li>*.avi (video/avi).</li>
+<li>*.asf, *.asx (video/x-ms-asf).</li>
+<li>*.mpeg, *.mpg, *.mpe (video/mpeg)</li>
+<li>*.qt, *.mov (video/quicktime).</li>
+<li>*.ogv (video/ogg).</li>
+<li>*.ogx (application/ogg).</li>
+<li>*.wmv (video/x-ms-wmv).</li>
+<li>*.webm (video/webm).</li>
+<li>*.mpv, *.mkv (video/x-matroska).</li>
+</ul>
+<p>And <strong class="program">looker</strong> permit you to reset the default settings.</p>
+<p>&#8212;</p>
+<p><strong class="program">looker</strong> permit you to clear the file which store the position of your videos.</p>
+<p>Because when <strong class="program">looker</strong> ask you for registering if you answers:</p>
+<ul class="simple">
+<li>&#8220;yes&#8221;, it will store the position.</li>
+<li>&#8220;No&#8221; it will delete the entry if it exists one for the video file.</li>
+</ul>
+<p>And the file, which store the positions, will grow if you don&#8217;t answers &#8220;No&#8221; at exit at the end of the video.</p>
+<p>&#8212;</p>
+<p><strong class="program">looker</strong> permit you to select the folder where to store the snapshots:</p>
+<ul class="simple">
+<li>Desktop (default).</li>
+<li>Documents.</li>
+<li>Download.</li>
+<li>Music.</li>
+<li>Picture.</li>
+<li>Videos.</li>
+</ul>
+</div>
+<div class="section" id="shortcuts">
+<h2>Shortcuts<a class="headerlink" href="#shortcuts" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="26%" />
+<col width="28%" />
+<col width="47%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Shortcut</th>
+<th class="head">Memo</th>
+<th class="head">Functionality</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Ctrl + O</td>
+<td>Open</td>
+<td>Open file</td>
+</tr>
+<tr class="row-odd"><td>Ctrl + S</td>
+<td>Snapshot</td>
+<td>take a snapshot</td>
+</tr>
+<tr class="row-even"><td>Ctrl + +</td>
+<td>None</td>
+<td>Increment volume</td>
+</tr>
+<tr class="row-odd"><td>Ctrl + -</td>
+<td>None</td>
+<td>Decrement volume</td>
+</tr>
+<tr class="row-even"><td>Ctrl + C</td>
+<td>Clear</td>
+<td>Clear positions file</td>
+</tr>
+<tr class="row-odd"><td>Ctrl + P</td>
+<td>Preferences</td>
+<td>Preferences</td>
+</tr>
+<tr class="row-even"><td>Ctrl + A</td>
+<td>About</td>
+<td>About window</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="credits">
+<h2>Credits<a class="headerlink" href="#credits" title="Permalink to this headline">¶</a></h2>
+<p>Thanks to my beloved mother, my family and to the doctors.</p>
+<p>Stay away from drugs: drugs destroy your brain and your life.</p>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        <a class="uplink" href="index.html#document-index">Contents</a>
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, Brüggemann Eddie.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.6.
+    </div>
+  </body>
+</html>
